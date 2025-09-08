@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>For Sale: Beautiful Murrieta Home</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <style>
         body {
             font-family: 'Inter', sans-serif;
@@ -15,12 +16,15 @@
             background-size: cover;
             background-position: center;
         }
+        .font-classy {
+            font-family: 'Great Vibes', cursive;
+        }
     </style>
 </head>
 <body class="bg-gray-100 text-gray-800">
 
     <!-- Navigation Bar -->
-    <nav class="bg-white shadow-md fixed w-full z-20 top-0">
+    <nav class="bg-white/90 backdrop-blur-sm shadow-md fixed w-full z-20 top-0">
         <div class="container mx-auto px-4 sm:px-6 py-3 flex justify-center items-center">
             <div class="flex items-center space-x-4 md:space-x-8">
                 <a href="index.html" class="bg-indigo-600 text-white font-bold py-3 px-6 text-base md:py-4 md:px-10 md:text-xl rounded-xl transition duration-300 text-center">
@@ -34,54 +38,156 @@
     </nav>
 
     <!-- Hero Section -->
-    <header class="hero-bg h-screen flex items-center justify-center">
-        <div class="text-center text-white p-4 md:p-8 pt-16 sm:pt-0">
-            <h1 class="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 leading-tight">A Place to Call Home</h1>
-        </div>
+    <header class="hero-bg h-screen flex flex-col items-center justify-start pt-56 text-center text-white p-4 md:p-8">
+        <h1 class="text-6xl sm:text-7xl md:text-8xl font-bold leading-tight font-classy">a place to call home</h1>
     </header>
 
     <!-- Property Details Section -->
     <main class="py-12 md:py-16 bg-white">
         <div class="container mx-auto px-4 sm:px-6">
             <h2 class="text-3xl md:text-4xl font-bold text-center mb-4">Property Details</h2>
-            <p class="text-center text-gray-600 mb-8 md:mb-12">All the information about this beautiful property.</p>
+            <p class="text-center text-red-600 font-bold text-xl my-4">FOR SALE BY OWNER</p>
+            <p class="text-center text-red-600 mb-8 md:mb-12"><u class="font-semibold">Do not contact the resident</u>, selling agents need not reply. Buying agents commission negotiable</p>
             
-            <!-- Image Gallery Preview -->
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-2 sm:gap-4 mb-6">
-                <div class="col-span-2 row-span-2 rounded-lg overflow-hidden">
-                   <img src="fronthouse.jpg" alt="Front of the house" class="w-full h-full object-cover shadow-md">
+            <!-- Image Gallery -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8 md:mb-12">
+                <!-- Exterior & Entry -->
+                <div class="col-span-2 md:col-span-4 rounded-lg overflow-hidden">
+                   <img src="fronthouse.jpg" alt="Front of the house with manicured lawn" class="w-full h-auto object-cover shadow-md">
                 </div>
-                <div class="rounded-lg overflow-hidden"><img src="Back4.jpg" alt="Backyard Patio" class="w-full h-full object-cover shadow-md"></div>
-                <div class="rounded-lg overflow-hidden"><img src="Gbed1.jpg" alt="Bedroom" class="w-full h-full object-cover shadow-md"></div>
-                <div class="rounded-lg overflow-hidden"><img src="Back2.jpg" alt="Backyard BBQ" class="w-full h-full object-cover shadow-md"></div>
-                <div class="rounded-lg overflow-hidden"><img src="GBed3.jpg" alt="Guest Bedroom" class="w-full h-full object-cover shadow-md"></div>
+                 <div class="rounded-lg overflow-hidden">
+                    <img src="frontdoor.jpg" alt="Close-up of the elegant white front door and entryway" class="w-full h-full object-cover shadow-md">
+                </div>
+                <div class="rounded-lg overflow-hidden">
+                    <img src="formal1.jpg" alt="Entryway with high ceilings and staircase" class="w-full h-full object-cover shadow-md">
+                </div>
+                <!-- Living & Dining Areas -->
+                <div class="md:col-span-2 rounded-lg overflow-hidden">
+                    <img src="formal2.jpg" alt="Formal living room with plush white sofas" class="w-full h-full object-cover shadow-md">
+                </div>
+                <div class="md:col-span-2 rounded-lg overflow-hidden">
+                    <img src="formal3.jpg" alt="Formal living and dining room with high ceilings and fireplace" class="w-full h-full object-cover shadow-md">
+                </div>
+                <div class="md:col-span-2 rounded-lg overflow-hidden">
+                    <img src="dinnertable.jpg" alt="Formal dining area with large window" class="w-full h-full object-cover shadow-md">
+                </div>
+                <div class="rounded-lg overflow-hidden">
+                    <img src="dinnertable2.jpg" alt="View from dining area to the living room" class="w-full h-full object-cover shadow-md">
+                </div>
+                <!-- Family Room & Kitchen -->
+                 <div class="md:col-span-2 rounded-lg overflow-hidden">
+                    <img src="famroom.jpg" alt="Family room with fireplace" class="w-full h-full object-cover shadow-md">
+                </div>
+                 <div class="md:col-span-2 rounded-lg overflow-hidden">
+                    <img src="famroom2.jpg" alt="Family room with entertainment center" class="w-full h-full object-cover shadow-md">
+                </div>
+                <div class="rounded-lg overflow-hidden">
+                    <img src="kitchen.jpg" alt="Kitchen with white cabinets, dark countertops, and stainless steel appliances" class="w-full h-full object-cover shadow-md">
+                </div>
+                <div class="rounded-lg overflow-hidden">
+                    <img src="kitchen2.jpg" alt="View of the kitchen sink and dishwasher area" class="w-full h-full object-cover shadow-md">
+                </div>
+                <div class="md:col-span-2 rounded-lg overflow-hidden">
+                    <img src="kitchenknook.jpg" alt="Kitchen nook with a dining table and large windows" class="w-full h-full object-cover shadow-md">
+                </div>
+                <!-- Downstairs Utility & Powder Room -->
+                 <div class="rounded-lg overflow-hidden">
+                    <img src="powderroom.jpg" alt="Downstairs powder room" class="w-full h-full object-cover shadow-md">
+                </div>
+                 <div class="rounded-lg overflow-hidden">
+                    <img src="laundryroom.jpg" alt="Laundry room with washer and dryer" class="w-full h-full object-cover shadow-md">
+                </div>
+                 <div class="rounded-lg overflow-hidden">
+                    <img src="garagedoor.jpg" alt="Interior hallway leading from the garage" class="w-full h-full object-cover shadow-md">
+                </div>
+                 <!-- Upstairs Hall & Loft -->
+                <div class="rounded-lg overflow-hidden">
+                    <img src="uphall.jpg" alt="Upstairs hallway with built-in cabinets" class="w-full h-full object-cover shadow-md">
+                </div>
+                <div class="rounded-lg overflow-hidden">
+                    <img src="Loft.jpg" alt="Upstairs loft area, perfect for a home office" class="w-full h-full object-cover shadow-md">
+                </div>
+                <div class="rounded-lg overflow-hidden">
+                    <img src="Loft2.jpg" alt="Another view of the loft showing built-in shelving" class="w-full h-full object-cover shadow-md">
+                </div>
+                <!-- Master Suite -->
+                 <div class="md:col-span-2 rounded-lg overflow-hidden">
+                     <img src="Mbed1.jpg" alt="Spacious master bedroom with vaulted ceilings" class="w-full h-full object-cover shadow-md">
+                </div>
+                 <div class="md:col-span-2 rounded-lg overflow-hidden">
+                    <img src="Mbath1.jpg" alt="Master bathroom with dual sinks and a large tub" class="w-full h-full object-cover shadow-md">
+                </div>
+                <div class="rounded-lg overflow-hidden">
+                    <img src="Mbath2.jpg" alt="Master bathroom's walk-in tiled shower" class="w-full h-full object-cover shadow-md">
+                </div>
+                 <div class="rounded-lg overflow-hidden">
+                    <img src="Mbath3.jpg" alt="Water closet in the master bathroom" class="w-full h-full object-cover shadow-md">
+                </div>
+                <!-- Guest Bedrooms & Bath -->
+                <div class="rounded-lg overflow-hidden">
+                    <img src="Gbed1.jpg" alt="Bedroom with grey walls, hardwood floors, and plaid bedding" class="w-full h-full object-cover shadow-md">
+                </div>
+                <div class="rounded-lg overflow-hidden">
+                    <img src="Gbed2.jpg" alt="Another view of the grey bedroom showing closet doors" class="w-full h-full object-cover shadow-md">
+                </div>
+                <div class="rounded-lg overflow-hidden">
+                    <img src="GBed3.jpg" alt="Guest bedroom with purple walls and a double bed" class="w-full h-full object-cover shadow-md">
+                </div>
+                <div class="rounded-lg overflow-hidden">
+                    <img src="GBed4.jpg" alt="View of the purple bedroom showing the ceiling fan and window" class="w-full h-full object-cover shadow-md">
+                </div>
+                <div class="rounded-lg overflow-hidden">
+                    <img src="Gbed5.jpg" alt="View from one bedroom looking into another" class="w-full h-full object-cover shadow-md">
+                </div>
+                 <div class="rounded-lg overflow-hidden">
+                    <img src="TopBath.jpg" alt="Upstairs guest bathroom with dual sinks" class="w-full h-full object-cover shadow-md">
+                </div>
+                 <!-- Backyard -->
+                <div class="md:col-span-2 rounded-lg overflow-hidden">
+                    <img src="Back4.jpg" alt="Covered backyard patio with comfortable seating at dusk" class="w-full h-full object-cover shadow-md">
+                </div>
+                <div class="rounded-lg overflow-hidden">
+                    <img src="Back1.jpg" alt="Landscaped backyard with stone path and artificial turf" class="w-full h-full object-cover shadow-md">
+                </div>
+                 <div class="rounded-lg overflow-hidden">
+                    <img src="Back2.jpg" alt="Backyard features a built-in BBQ and a waterfall rock feature" class="w-full h-full object-cover shadow-md">
+                </div>
+                <div class="rounded-lg overflow-hidden">
+                    <img src="Back5.jpg" alt="View of the back patio with rocking chairs and a shed" class="w-full h-full object-cover shadow-md">
+                </div>
+                 <div class="rounded-lg overflow-hidden">
+                    <img src="Back3.jpg" alt="Paved side yard with drought-resistant plants" class="w-full h-full object-cover shadow-md">
+                </div>
             </div>
-            
-             <!-- See All Photos Button -->
-            <div class="text-center mb-8 md:mb-12">
-                <a href="gallery.html" class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-8 rounded-lg text-lg transition duration-300">
-                    See All Photos
-                </a>
-            </div>
-
 
             <!-- Home Information -->
             <div class="bg-white p-6 md:p-8 rounded-lg shadow-lg">
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                    <div>
-                        <h3 class="text-2xl font-bold mb-4">Features & Price</h3>
-                        <div class="text-4xl md:text-5xl font-bold text-indigo-600 mb-6">$695,000</div>
-                        <ul class="space-y-3 text-gray-700">
-                            <li class="flex items-center"><svg class="w-6 h-6 mr-3 text-indigo-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg> 3 Bedrooms + Loft</li>
-                            <li class="flex items-center"><svg class="w-6 h-6 mr-3 text-indigo-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg> 2 1/2 Bathrooms</li>
-                            <li class="flex items-center"><svg class="w-6 h-6 mr-3 text-indigo-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 1v4m0 0h-4m4 0l-5-5"></path></svg> 2,102 sqft Living Space</li>
-                        </ul>
-                    </div>
-                    <div>
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                    <div class="lg:col-span-2">
                         <h3 class="text-2xl font-bold mb-4">Description</h3>
                         <p class="text-gray-600 leading-relaxed">
                            This beautifully maintained home is perfect for families, featuring numerous upgrades for comfort and efficiency. Enjoy low water and electricity costs thanks to a manicured yard with artificial turf, an efficient solar system, and upgraded windows for better insulation. Located in a quiet, well-established neighborhood within walking distance to an elementary school, this property offers both style and practicality. It's a rare opportunity to own a turnkey home in a highly desirable area.
                         </p>
+                    </div>
+                    <div>
+                        <div class="bg-gray-50 p-6 rounded-lg border h-full">
+                            <h3 class="text-2xl font-bold mb-4">Features & Price</h3>
+                            <div class="text-4xl md:text-5xl font-bold text-indigo-600 mb-6">$695,000</div>
+                            <ul class="space-y-3 text-gray-700 mb-8">
+                                <li class="flex items-center"><svg class="w-6 h-6 mr-3 text-indigo-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path></svg> 3 Bedrooms + Loft</li>
+                                <li class="flex items-center"><svg class="w-6 h-6 mr-3 text-indigo-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg> 2 1/2 Bathrooms</li>
+                                <li class="flex items-center"><svg class="w-6 h-6 mr-3 text-indigo-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 1v4m0 0h-4m4 0l-5-5"></path></svg> 2,102 sqft Living Space</li>
+                            </ul>
+                            
+                            <h3 class="text-2xl font-bold mb-4">🛠️ Features & Amenities</h3>
+                            <ul class="space-y-3 list-disc list-inside text-gray-700">
+                                <li>Central air and forced heating</li>
+                                <li>In-unit laundry (washer & dryer included)</li>
+                                <li>Attached garage and off-street parking</li>
+                                <li>Appliances: Refrigerator, oven, microwave, dishwasher, freezer, washer/dryer</li>
+                                <li>Flooring: Hardwood, tile, and carpet</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -92,11 +198,11 @@
                 <div class="bg-gray-50 p-6 md:p-8 rounded-lg shadow-inner">
                     <ul class="space-y-3 text-gray-700 list-disc list-inside">
                         <li>Manicured front and back yard with artificial turf (low water use)</li>
-                        <li>Upgraded windows for better insulation</li>
+                        <li>Upgraded windows by Anlin</li>
                         <li>Efficient solar system and A/C to reduce electricity costs</li>
                         <li>Quiet, well-established neighborhood</li>
                         <li>Walking distance to an elementary school</li>
-                        <li>Furnished option includes a daybed in the loft/den</li>
+                        <li>A large custom storage shed in backyard.</li>
                     </ul>
                 </div>
             </div>
@@ -124,7 +230,7 @@
                             </svg>
                         </div>
                         <h3 class="text-lg md:text-xl font-bold mb-2">Close to Shopping</h3>
-                        <p class="text-gray-600">Convenient access to amenities</p>
+                        <p class="text-gray-600">Convenient location to grocery, retail stores, and restaurants.</p>
                     </div>
                     <!-- Card 3: Schools -->
                     <div class="bg-gray-50 p-6 md:p-8 rounded-lg shadow-md text-center hover:shadow-xl transition-shadow duration-300">
@@ -140,12 +246,12 @@
                     <div class="bg-gray-50 p-6 md:p-8 rounded-lg shadow-md text-center hover:shadow-xl transition-shadow duration-300">
                          <div class="flex justify-center items-center mb-4">
                             <svg class="w-12 h-12 md:w-16 md:h-16 text-indigo-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.385m5.043.025a15.994 15.994 0 001.622-3.385m3.388 1.62a15.994 15.994 0 01-3.385-1.62m-1.622-3.385a15.994 15.994 0 00-1.622 3.385m-5.043-.025a15.994 15.994 0 01-1.622-3.385m-1.622 3.385a15.994 15.994 0 00-3.385 1.62m1.622 3.385a15.994 15.994 0 013.385 1.62m5.043.025a15.994 15.994 0 003.385-1.62m-5.043.025a15.994 15.994 0 01-1.622 3.385m-5.043-.025a15.994 15.994 0 00-1.622 3.385"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M9.53 16.122a3 3 0 00-5.78 1.128 2.25 2.25 0 01-2.4 2.245 4.5 4.5 0 008.4-2.245c0-.399-.078-.78-.22-1.128zm0 0a15.998 15.998 0 003.388-1.62m-5.043-.025a15.994 15.994 0 011.622-3.385m5.043.025a15.994 15.994 0 001.622-3.385m3.388 1.62a15.994 15.994 0 01-3.385-1.62m-1.622-3.385a15.994 15.994 0 00-1.622 3.385m-5.043-.025a15.994 15.994 0 01-1.622-3.385m-1.622 3.385a15.994 15.994 0 00-3.385 1.62m1.622 3.385a15.994 15.994 0 013.385 1.62m5.043.025a15.994 15.994 0 003.385-1.62m-5.043-.025a15.994 15.994 0 01-1.622 3.385m-5.043-.025a15.994 15.994 0 00-1.622 3.385"></path>
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25a4.5 4.5 0 100 9 4.5 4.5 0 000-9z"></path>
                            </svg>
                         </div>
                         <h3 class="text-lg md:text-xl font-bold mb-2">Peaceful Environment</h3>
-                        <p class="text-gray-600">Ideal for long-term tenants</p>
+                        <p class="text-gray-600">Move-in ready</p>
                     </div>
                 </div>
             </div>
@@ -172,7 +278,7 @@
                 </div>
 
                 <!-- Right Side: Formspree Form -->
-                <div class="md:w-1/2">
+                <div class="md:w-12">
                     <form action="https://formspree.io/f/mldwaora" method="POST" class="space-y-4">
                         <div>
                             <label for="name" class="sr-only">Name</label>
